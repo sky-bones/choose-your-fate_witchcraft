@@ -13,7 +13,7 @@
 @-webkit-viewport {
     width: device-width;
     scale: 1;
-}
+}9
 @viewport {
     width: device-width;
     scale: 1;
@@ -22,7 +22,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: normal 100%/1.5 sans-serif;
+    font: normal 100%/1.5 serif;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -30,9 +30,63 @@ html {
 
 }
 
-}
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+    padding: 10px;
+}
+.background-black {
+    background-color: black;
+}
+
+
+.yes-button {
+    font-family: "Cinzel";
+    font-size: 1.75em;
+    color: yellow;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: black;
+
+}
+
+.yes-button a {
+    text-decoration: none;
+}
+
+.no-button {
+    font-family: "Cinzel";
+    font-size: 1.75em;
+    color: green;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: black;
+
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+    }
+
+@media only screen and (min-width: 60em) {
+
 }
