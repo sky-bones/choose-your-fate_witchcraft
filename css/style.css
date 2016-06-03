@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=IM+Fell+English);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+English|Pirata+One);
 .grid {
   margin: 0;
   padding: 0;
@@ -481,6 +481,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #e1e1d0;
 }
 
 *, *:before, *:after {
@@ -489,7 +490,6 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 img {
@@ -497,13 +497,72 @@ img {
   width: 100%;
 }
 
-.logo {
-  max-width: 100px;
-  padding: 10px;
+.nav {
+  margin: 0 0 0 10px;
+  padding: 0;
+  background-color: #49ff8e;
+  display: none;
+  position: absolute;
+  width: 12em;
 }
 
-.background-black {
-  background-color: black;
+.nav a {
+  color: #000;
+  font-size: 1.15em;
+  display: block;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav ul {
+  margin: 10px;
+  padding: 0;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  margin: 10px 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  left: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.background-img {
+  background-img: url("../images/background-header.jpg");
 }
 
 .yes-button {
@@ -526,7 +585,7 @@ img {
 }
 
 html {
-  font: normal 100%/1.5 "IM+Fell+English", serif, serif;
+  font: normal 100%/1.5 "IM Fell English", serif, serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -733,5 +792,5 @@ sub {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: normal 100%/1.5 Pirata, serif;
+  font: normal 100%/1.5 "Pirata One", serif, serif;
 }

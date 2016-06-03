@@ -13,6 +13,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    background-color: $beige;
 
 }
 
@@ -22,7 +23,6 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
 }
 
 img {
@@ -30,14 +30,90 @@ img {
     width: 100%;
 }
 
-.logo {
-    max-width: 100px;
-    padding: 10px;
-}
-.background-black {
-    background-color: black;
+
+.nav {
+    margin: 0 0 0 10px;
+    padding: 0;
+    background-color: $green;
+    display: none;
+    position: absolute;
+    //right: 0;
+    width: 12em;
+
 }
 
+
+.nav a {
+    color: $black;
+    font-size: 1.15em;
+    display: block;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: $white;
+    //background-color: $green;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav ul {
+    margin: 10px;
+    padding: 0;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+
+.nav-label {
+    margin: 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    //position: ;
+    left: 0;
+    //bottom: 0;
+}
+
+
+.nav-open,
+.nav-close {
+    display: block;
+    width: 100%;
+}
+
+.nav-close {
+    display: none;
+
+}
+
+.nav-check:checked ~ .nav-label {
+    //padding: 0;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+}
+
+
+.background-img {
+    background-img: url("../images/background-header.jpg");
+    //background-size: cover;
+    //background-repeat: no-repeat;
+}
 
 .yes-button {
 

@@ -8,14 +8,29 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 
-<header>
-	<div class="grid">
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 background-black">
-				<img class="logo" src="images/witchcraft_logo_2.svg">
-			</div>
-	</div>
+
+
+<body>
+
+<header class="background-img">
+	<input type="checkbox" class="nav-check" id="nav-check">
+		<label class="nav-label" for="nav-check">
+      <img class="nav-open" src="icons/nav-icon.svg" alt="Open Navigation">
+      <img class="nav-close" src="icons/nav-icon-close.svg" alt="Close Navigation">
+		</label>
+
+	<nav class="nav" id="navigation" role="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="{{site.baseurl}}/about">About / Contact</a></li>
+		</ul>
+	</nav>
+
+	<h1>witchcraft</h1>
 </header>
 
 {{content}}
 
+
+</body>
 </html>
