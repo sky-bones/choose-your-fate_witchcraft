@@ -39,6 +39,7 @@ img {
     position: absolute;
     //right: 0;
     width: 12em;
+    z-index: 2;
 
 }
 
@@ -109,43 +110,66 @@ img {
 }
 
 
-.background-img {
-    background-img: url("../images/background-header.jpg");
-    //background-size: cover;
-    //background-repeat: no-repeat;
+.bckgrnd {
+    position: absolute;
+    z-index: -2;
 }
 
-.yes-button {
+.title {
+    font-size: 3.5em;
+    margin-bottom: 60px;
+    text-align: center;
+    color: $green;
+}
 
-    color: yellow;
-    text-decoration: none;
-    padding: 15px 25px;
-    background-color: black;
+.text {
 
 }
 
-.yes-button a {
-    text-decoration: none;
-}
-
-.no-button {
-
-    font-size: 1.75em;
-    color: green;
-    text-decoration: none;
-    padding: 15px 25px;
-    background-color: black;
-
-}
 
 @media only screen and (min-width: 25em) {
+
+    .title {
+        font-size: 5em;
+        margin-bottom: 10%;
+    }
+
+    .text {
+        margin: 0 50px ;
+    }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+    .title {
+        font-size: 10em;
+        margin-bottom: 12%;
+    }
+
+    .text {
+        margin: 30px 80px 0 ;
+    }
+
     }
 
 @media only screen and (min-width: 60em) {
 
+    .title {
+        font-size: 15em;
+        margin-bottom: 18%;
+    }
+
+    .text {
+        margin: 20px 200px ;
+    }
+
 }
+
+@media only screen and (min-width: 90em) {
+
+    .text {
+        margin: 40px 500px ;
+    }
+
+    }
