@@ -1,28 +1,14 @@
-@-moz-viewport {
-    width: device-width;
-    scale: 1;
-}
-@-ms-viewport {
-    width: device-width;
-    scale: 1;
-}
-@-o-viewport {
-    width: device-width;
-    scale: 1;
-}
-@-webkit-viewport {
-    width: device-width;
-    scale: 1;
-}9
-@viewport {
-    width: device-width;
-    scale: 1;
-}
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font: normal 100%/1.5 serif;
+
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -30,9 +16,7 @@ html {
 
 }
 
-*,
-*:before,
-*:after {
+*,*:before, *:after {
     box-sizing: inherit;
 }
 
@@ -56,8 +40,7 @@ img {
 
 
 .yes-button {
-    font-family: "Cinzel";
-    font-size: 1.75em;
+
     color: yellow;
     text-decoration: none;
     padding: 15px 25px;
@@ -70,7 +53,7 @@ img {
 }
 
 .no-button {
-    font-family: "Cinzel";
+
     font-size: 1.75em;
     color: green;
     text-decoration: none;
