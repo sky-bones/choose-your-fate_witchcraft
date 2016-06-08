@@ -30,6 +30,11 @@ img {
     width: 100%;
 }
 
+.copyright {
+    display: inline-block;
+    width: 60px;
+}
+
 
 .nav {
     margin: 0 0 0 10px;
@@ -80,9 +85,8 @@ img {
     cursor: pointer;
     display: inline-block;
     width: 40px;
-    //position: ;
     left: 0;
-    //bottom: 0;
+
 }
 
 
@@ -126,6 +130,46 @@ img {
 
 }
 
+.at-link {
+    color: $black;
+    text-decoration: none;
+    border-bottom: solid 2px $green;
+}
+
+.at-link:hover {
+    color: $white;
+    border-bottom: solid 2px $white;
+
+}
+
+.foot {
+    font-size: .75em;
+}
+
+.back {
+    color: $black;
+}
+
+.back:hover {
+    fill: $white;
+}
+
+.st0 {
+    fill:none;
+    stroke: $green;
+    stroke-width:3;
+    stroke-miterlimit:10;
+}
+
+
+.st1 {
+    fill:none;
+    stroke:#81FF97;
+    stroke-width:2;
+    stroke-miterlimit:10;
+}
+
+
 
 @media only screen and (min-width: 25em) {
 
@@ -139,6 +183,9 @@ img {
     }
 
 }
+
+
+
 
 @media only screen and (min-width: 38em) {
 
