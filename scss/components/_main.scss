@@ -164,9 +164,13 @@ img {
 
 .st1 {
     fill:none;
-    stroke:#81FF97;
+    stroke:$green;
     stroke-width:2;
     stroke-miterlimit:10;
+}
+
+.st2 {
+    fill: $green;
 }
 
 

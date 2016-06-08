@@ -612,9 +612,13 @@ img {
 
 .st1 {
   fill: none;
-  stroke: #81FF97;
+  stroke: #49ff8e;
   stroke-width: 2;
   stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #49ff8e;
 }
 
 @media only screen and (min-width: 25em) {
