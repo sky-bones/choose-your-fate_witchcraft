@@ -113,6 +113,10 @@ img {
     display: block;
 }
 
+.current {
+    border-bottom: solid 3px $black;
+}
+
 
 .bckgrnd {
     position: absolute;
@@ -174,7 +178,6 @@ img {
 }
 
 
-
 @media only screen and (min-width: 25em) {
 
     .title {
@@ -187,9 +190,6 @@ img {
     }
 
 }
-
-
-
 
 @media only screen and (min-width: 38em) {
 
@@ -208,7 +208,7 @@ img {
 
     .title {
         font-size: 15em;
-        margin-bottom: 18%;
+        margin-bottom: 19%;
     }
 
     .text {

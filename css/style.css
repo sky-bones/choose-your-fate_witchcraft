@@ -568,6 +568,10 @@ img {
   display: block;
 }
 
+.current {
+  border-bottom: solid 3px #000;
+}
+
 .bckgrnd {
   position: absolute;
   z-index: -2;
@@ -644,7 +648,7 @@ img {
 @media only screen and (min-width: 60em) {
   .title {
     font-size: 15em;
-    margin-bottom: 18%;
+    margin-bottom: 19%;
   }
   .text {
     margin: 20px 200px;
